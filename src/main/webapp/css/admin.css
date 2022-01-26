@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+	background:black;
+	color:white;
+}
+#wrap{
+	width: 1200px;
+	height:800px;
+	position: fixed; 
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+#list th, #list td{ 
+ 	 padding: 8px 5px;
+ 	 text-align: left;
+ 	 border:1px solid white;
+ 
+}
+#list th{
+	text-align:center;
+/* 	border-right:1px solid white;
+ */		width:1200px;
+ 	background:#787878;
+}
+#list{
+	padding : 30px;
+	width:1200px;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	
+}
+#button2{
+	padding : 7px 15px;
+	border:none;
+	border-radius : 5px 5px 5px 5px;
+	background:#a0a0a0;
+	color:white;
+	font-size:93%;
+	
+}
+table#movieList {
+ border-collapse: collapse; /* border 사이의 간격 없앰 */
+ border-top: 2px solid #333;
+ border-bottom: 1px solid #333;
+ width:100%; /* 전체 테이블 길이 설정 */
+ margin-bottom: 20px;
+}
+
+th, td{ 
+ padding: 8px 5px;
+}
+
+#wrap2{
+	width: 971px;
+	height:800px;
+	/* border: 1px dashed white; */
+	position: fixed; 
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+#list2 td{ 
+ padding: 8px 5px;
+ text-align: left;
+}
+#list2 {
+	border: 1px solid gray;
+	padding : 30px;
+}
+
+
+#movieList td{ /* 테이블의 th 와 td 마진과 패딩 지정 */
+ text-align: center;
+}

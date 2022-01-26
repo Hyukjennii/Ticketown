@@ -1,0 +1,77 @@
+@charset "UTF-8";
+*{margin:0; padding:0;}
+body { 
+	background-image: url(../images/login.jpg);
+    background-repeat:repeat-y;
+    background-size:cover;
+    }
+.wrap {
+	width: 871px;
+	height:750px;
+	text-align: left;
+	font-size:110%;
+	background-color:rgba(0,0,0,0.5);
+	position: fixed; 
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+	position: relative;
+	width: 445px; 
+	height:30px;
+	margin : 0 auto; 
+	font-size: 70%;
+	font-weight: bold; 
+	color:white;
+}
+.text{
+	width: 445px; 
+	height:30px; 
+	margin : 0 auto; 
+	font-weight: bold; 
+	font-size: 90%; 
+	line-height: 40px;
+	color:#eeeeee;
+}
+#logo{
+	position: relative; 
+	width: 871px; 
+	height: 90px; 
+	margin : 0 auto;
+	text-align: center; 
+	line-height: 90px; 
+	opacity:0.7; 
+	color:white;
+}
+.id1{ 
+	height: 30px;
+	border:none;
+	padding :2px 5px;
+	font-size:105%; 
+	outline: none; 
+	position: relative; 
+	border-radius:2px 2px 2px 2px;
+	color:gray;
+}
+#button input{
+	padding : 10px 15px;
+	border:none;
+	border-radius : 5px 5px 5px 5px;
+	width:450px;
+	background:#a0a0a0;
+	color:white;
+	font-size:100%;
+	
+}
+
+#button2{
+	padding : 7px 15px;
+	border:none;
+	border-radius : 5px 5px 5px 5px;
+	background:#a0a0a0;
+	color:white;
+	font-size:93%;
+	
+	
+}
